@@ -1,0 +1,30 @@
+{
+    "apps": [
+        {
+            "name": "mern-chat-Assessment",
+            "script": "yarn start",
+            "cwd": "./mern-chat-Assessment/",
+            "args": "",
+            "autorestart": true,
+            "watch": true,
+            "ignore_watch": [
+                "node_modules",
+                "public",
+                "logs"
+            ],
+            "watch_options": {
+                "followSymlinks": false
+            },
+            "max_memory_restart": "1G",
+            "env": {
+                "APP": "mern-chat-Assessment",
+                "NODE_ENV": "development",
+                "PORT": 5000,
+                "MONGO_URI": "mongodb+srv://nadeem:R5clSKogq28nyrig@testcluster.gbg6k.mongodb.net/mernChat",
+                "JWT_SECRET": "jqpwsprkzyxugwwtjzyhcvfrvfbfjgdylimyqqdtzoagyxymxrnqfhfxfvwgoswr",
+                "NODEMAILER": "nodemailerabdul@gmail.com",
+                "NODEMAILER_PASS": "bbrtllkfisydxqhm"
+            }
+        }
+    ]
+}
